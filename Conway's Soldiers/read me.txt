@@ -1,0 +1,5 @@
+The one player game,Conway’s Soldiers(sometimes known asSolitaire Army), is similar to pegsolitaire. 
+For this exercise, Conway’s board is a7(width)×8(height) board with tiles on it. Thelower half of the board is entirely 
+filled with tiles (pegs), and the upper half is completely empty.A tile can move by jumping another tile, either horizontally 
+or vertically (but never diagonally)onto an empty square. 
+The jumped tile is then removed from the board. A few possible movesare shown below
