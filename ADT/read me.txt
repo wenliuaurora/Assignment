@@ -1,0 +1,7 @@
+We will implement the Dictionary ADT using two ‘rival’ techniques - the Binary SearchTree (BST) and using Hashing.One file is 
+provided to test these two approaches. This is calledspl.cand reads in a file ofcorrectly spelt words (argv[1]) and then a list of 
+words to check (argv[2]). The program thenprints out all words in the second file that are incorrectly spelt.Whilst I providespl.c,
+you need to provide the dictionary implementation that this programuses. These are the BST approachbst.c/bst.hand the Hashing 
+approachhsh.c/hsh.h. Youwill compilespl.calong with each of these two files in turn, to create two executables thatperform the 
+same task, but using different underlying methodologies. Much of the compilationis dealt with by the providedMakefile; this also 
+specifies which header file (bst.horhsh.h)to put at the very top line ofspl.cusing the-includecompile option.
