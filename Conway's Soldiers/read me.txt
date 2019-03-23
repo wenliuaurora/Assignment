@@ -3,3 +3,6 @@ For this exercise, Conway’s board is a7(width)×8(height) board with tiles on 
 filled with tiles (pegs), and the upper half is completely empty.A tile can move by jumping another tile, either horizontally 
 or vertically (but never diagonally)onto an empty square. 
 The jumped tile is then removed from the board. A few possible movesare shown below
+The user enters the location of an empty square they’d like to get a tile into, and the programdemonstrates the moves that enables
+the tile to reach there (or warns them it’s impossible). Todo this you will use a list of boards. The initial board is put into
+this list. Each board in the list is,in turn, read from the list and all possible moves from that board added into the list. The nextboard is taken, and all its resulting boards are added, and so on.Each structure in the list will contain (amongst other things) a board and a record of its parentboard, i.e. the board that it was created from.
