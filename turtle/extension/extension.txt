@@ -1,0 +1,23 @@
+In this part I add a function called IF. You can compare two numbers or the value of variables ,and make a conditional chose.
+
+if the condition inside the bracket is false, the code will run until it is out of the IF's bracket.
+
+<MAIN> ::= "{" <INSTRCTLST>
+<INSTRCTLST> ::= <INSTRUCTION><INSTRCTLST> |"}"
+<INSTRUCTION> ::= <FD> |
+<LT> |
+<RT> |
+<DO> |
+<SET>
+<FD> ::= "FD" <VARNUM>
+<LT> ::= "LT" <VARNUM>
+<RT> ::= "RT" <VARNUM>
+<DO> ::= "DO" <VAR> "FROM" <VARNUM> "TO"
+<VARNUM> "{" <INSTRCTLST>
+<VAR> ::= [A −Z]
+<VARNUM> ::= number | <VAR>
+<SET> ::= "SET" <VAR> ":=" <POLISH>
+<POLISH> ::= <OP> <POLISH> | <VARNUM> <POLISH> | ";"
+<OP> ::= "+" | "−" | "*" | "/"
+<IF> ::=IF "(" <VARNUM> <COMOP> <VARNUM> ")"
+<COMOP> ::= ">" | ">=" | "<" | "<="| "=="

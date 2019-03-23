@@ -1,0 +1,7 @@
+{
+DO a fROM b tO 0.0.1
+SET a : 2 b ?
+SET A := ;
+/
+}
+

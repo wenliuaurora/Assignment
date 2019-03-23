@@ -1,0 +1,14 @@
+{
+IF ( 2 < 3 ) {
+DO A FROM 1 TO 4
+{
+DO A FROM 1 TO 100 {
+SET C := A 1.5 * ;
+FD C
+RT 62
+}
+}
+}
+RT 90
+FD 30
+}

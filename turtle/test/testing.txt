@@ -1,0 +1,12 @@
+In this folder, I mainly test interpreter because interpreter is written based on parser.For testing I divided testing into 4 part.
+
+The first one is you can get some value which can test by "asssert" when you use functions.I write them in test.c.Testing functions by this way,you can make ture the output of the function is absolutely right.The bad ting is you can not see the variables in function, and you can not watch them when they are changeing.
+
+The second one is some problems may cause warning(fprintf), I write some right and wrong text including test1-test6. I use these file to make sure the the warning can display on the screen.
+
+The third one is someblems may cauuse exit from program. Because of exiting, I only can test them in different file.
+
+The last one is about drawing. I test fuction drawline to make sure it works.
+
+Finally I write some program to test all the code. Because some logicality is difficult to test ,and you should write some program to test. The result is perect as I expected.
+
